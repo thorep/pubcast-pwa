@@ -62,10 +62,7 @@ export default function BottomNav({ items = defaultItems }: BottomNavProps) {
         <nav className="fixed inset-x-0 bottom-0 z-50">
             {/* Safe-area + spacing from screen edge */}
             <div className="mx-auto max-w-md px-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
-                <div
-                    className="rounded-2xl border border-neutral-200 bg-white/95 backdrop-blur shadow-sm
-                     dark:border-neutral-800 dark:bg-neutral-900/90"
-                >
+                <div className="rounded-2xl border border-neutral-200 bg-white/95 backdrop-blur shadow-sm">
                     <ul className="flex items-stretch justify-between px-2 py-2">
                         {items.map((item) => (
                             <li key={item.href} className="flex-1">
@@ -78,8 +75,8 @@ export default function BottomNav({ items = defaultItems }: BottomNavProps) {
                                             "mx-1 flex flex-col items-center justify-center gap-1 rounded-xl px-2 py-2",
                                             "text-xs font-medium transition",
                                             isActive
-                                                ? "bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-white"
-                                                : "text-neutral-500 hover:bg-neutral-50 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800/60 dark:hover:text-white",
+                                                ? "bg-neutral-100 text-neutral-900"
+                                                : "text-neutral-500 hover:bg-neutral-50 hover:text-neutral-900",
                                         ].join(" ")
                                     }
                                 >

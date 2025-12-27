@@ -3,10 +3,10 @@ import BottomNav from "../components/BottomNav.tsx";
 
 const MainLayout = ()=>{
     return (
-        <>
+        <div>
             <Outlet />
             <BottomNav />
-        </>
+        </div>
     )
 }
 
