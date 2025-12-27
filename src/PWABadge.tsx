@@ -4,7 +4,7 @@ function PWABadge() {
   // check for updates every hour
 
  // const period = 60 * 60 * 1000
-  const period = 1000*5
+  const period = 1000 * 60 * 5;
 
   const {
     
