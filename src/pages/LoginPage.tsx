@@ -27,7 +27,7 @@ const LoginPage = () => {
                     Email
                     <input
                         type="email"
-                        name="email"
+                        name="email1"
                         autoComplete="email"
                         placeholder="you@example.com"
                         className="mt-2 w-full rounded-xl border border-neutral-200 px-4 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 focus:border-neutral-400 focus:outline-none"
