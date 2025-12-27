@@ -1,8 +1,9 @@
+import type { ReactElement } from "react";
 import { Navigate, useLocation } from "react-router";
 import { useAuth } from "../auth";
 
 type RequireAuthProps = {
-    children: JSX.Element;
+    children: ReactElement;
 };
 
 export default function RequireAuth({ children }: RequireAuthProps) {
